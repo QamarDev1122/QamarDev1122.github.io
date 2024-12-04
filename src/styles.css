@@ -11732,3 +11732,9 @@ html {
     left: -2vw;
   }
 }
+
+/* src/components/Navbar.css */
+.navbar-brand img {
+    height: 60px; /* Adjust to desired height */
+    width: auto; /* Maintain aspect ratio */
+}
