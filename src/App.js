@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import ProjectsSection from './components/ProjectsSection';
-
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             {/* <Route path="/about" element={<AboutSection />} /> */}
             <Route path="/projects" element={<ProjectsSection />} />
+            <Route path="/contact" element={<ContactForm />} />
             {/* Add other routes here */}
           </Routes>
         </main>

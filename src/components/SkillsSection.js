@@ -3,6 +3,9 @@ import React from 'react';
 
 const SkillsSection = () => (
     <section>
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h2 class="text-secondary fw-bolder mb-4">Technical Expertise</h2>
+        </div>
         {/* <!-- Skillset Card--> */}
         <div class="card shadow border-0 rounded-4 mb-5">
             <div class="card-body p-5">
