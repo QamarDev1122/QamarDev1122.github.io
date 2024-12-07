@@ -21,10 +21,24 @@ const ExperienceSection = () => (
         <div class="card shadow border-0 rounded-4 mb-5">
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
-                    <div class="col-lg-12">
+                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                        <div class="bg-light p-4 rounded-4">
+                            <div class="text-primary fw-bolder mb-2">2023 - Present</div>
+                            <div class="small fw-bolder">Software Engineer</div>
+                            <div class="small text-muted">Mslm</div>
+                            <div class="small text-muted">Lahore Pakistan</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
                         <div>
                         <Timeline>
-                            <TimelineItem>
+                            <TimelineItem
+                                sx={{
+                                    '&:before': {
+                                      display: 'none', // Hides the ::before pseudo-element
+                                    },
+                                  }}                              
+                            >
                                 <TimelineSeparator>
                                 <TimelineDot />
                                 <TimelineConnector />
@@ -33,7 +47,13 @@ const ExperienceSection = () => (
                                     Used Google BQ for analyzing VPN privacy dataset and improved system performance by query optimization.
                                 </TimelineContent>
                             </TimelineItem>
-                            <TimelineItem>
+                            <TimelineItem
+                                sx={{
+                                    '&:before': {
+                                      display: 'none', // Hides the ::before pseudo-element
+                                    },
+                                  }}
+                            >
                                 <TimelineSeparator>
                                 <TimelineDot />
                                 <TimelineConnector />
@@ -42,7 +62,13 @@ const ExperienceSection = () => (
                                     Incorporated scripts using Python and Shell Script(Bash) to scrap different VPN extensions and configs to add new IP data points.
                                 </TimelineContent>
                             </TimelineItem>
-                            <TimelineItem>
+                            <TimelineItem
+                            sx={{
+                                '&:before': {
+                                  display: 'none', // Hides the ::before pseudo-element
+                                },
+                              }}
+                            >
                                 <TimelineSeparator>
                                 <TimelineDot />
                                 <TimelineConnector />
@@ -51,7 +77,13 @@ const ExperienceSection = () => (
                                     Explored ways to visualize and send a daily report of results against IP churn and IP differences to change the buckets of different providers.
                                 </TimelineContent>
                             </TimelineItem>
-                            <TimelineItem>
+                            <TimelineItem
+                            sx={{
+                                '&:before': {
+                                  display: 'none', // Hides the ::before pseudo-element
+                                },
+                              }}
+                            >
                                 <TimelineSeparator>
                                 <TimelineDot />
                                 </TimelineSeparator>
@@ -80,7 +112,13 @@ const ExperienceSection = () => (
                     <div class="col-lg-8">
                         <div>
                         <Timeline>
-                            <TimelineItem>
+                            <TimelineItem
+                            sx={{
+                                '&:before': {
+                                    display: 'none', // Hides the ::before pseudo-element
+                                },
+                                }}
+                            >
                                 <TimelineSeparator>
                                 <TimelineDot />
                                 <TimelineConnector />
@@ -89,7 +127,13 @@ const ExperienceSection = () => (
                                     Leveraged my skills as an ASE, specializing in Ruby on Rails (RoR) development, to deliver robust and scalable solutions that have successfully met the needs of various projects and clients.
                                 </TimelineContent>
                             </TimelineItem>
-                            <TimelineItem>
+                            <TimelineItem
+                            sx={{
+                                '&:before': {
+                                    display: 'none', // Hides the ::before pseudo-element
+                                },
+                                }}
+                            >
                                 <TimelineSeparator>
                                 <TimelineDot />
                                 </TimelineSeparator>
