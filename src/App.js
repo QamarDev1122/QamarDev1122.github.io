@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
-import AboutSection from './components/AboutSection';
 import Footer from './components/Footer';
+import Home from './components/Home';
+import ProjectsSection from './components/ProjectsSection';
 
 
 function App() {
   return (
-
-
-    <div className="d-flex flex-column h-100">
-            <main className="flex-shrink-0">
-                <Navbar />
-                <Header />
-                <AboutSection />
-                {/* Add other sections here */}
-            </main>
-            <Footer />
-    </div>
+    <Router>
+      <div className="d-flex flex-column h-100">
+        <Navbar />
+        <main className="flex-shrink-0">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {/* <Route path="/about" element={<AboutSection />} /> */}
+            <Route path="/projects" element={<ProjectsSection />} />
+            {/* Add other routes here */}
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
