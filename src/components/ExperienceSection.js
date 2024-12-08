@@ -7,6 +7,22 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  components: {
+    MuiTimelineItem: {
+      styleOverrides: {
+        root: {
+          '&:before': {
+            display: 'none',
+          },
+        },
+      },
+    },
+  },
+});
+
 const ExperienceSection = () => (
     <section>
         <div class="d-flex align-items-center justify-content-between mb-4">
@@ -31,67 +47,45 @@ const ExperienceSection = () => (
                     </div>
                     <div class="col-lg-8">
                         <div>
-                        <Timeline>
-                            <TimelineItem
-                                sx={{
-                                    '&:before': {
-                                      display: 'none', // Hides the ::before pseudo-element
-                                    },
-                                  }}                              
-                            >
-                                <TimelineSeparator>
-                                <TimelineDot />
-                                <TimelineConnector />
-                                </TimelineSeparator>
-                                <TimelineContent>
-                                    Used Google BQ for analyzing VPN privacy dataset and improved system performance by query optimization.
-                                </TimelineContent>
-                            </TimelineItem>
-                            <TimelineItem
-                                sx={{
-                                    '&:before': {
-                                      display: 'none', // Hides the ::before pseudo-element
-                                    },
-                                  }}
-                            >
-                                <TimelineSeparator>
-                                <TimelineDot />
-                                <TimelineConnector />
-                                </TimelineSeparator>
-                                <TimelineContent>
-                                    Incorporated scripts using Python and Shell Script(Bash) to scrap different VPN extensions and configs to add new IP data points.
-                                </TimelineContent>
-                            </TimelineItem>
-                            <TimelineItem
-                            sx={{
-                                '&:before': {
-                                  display: 'none', // Hides the ::before pseudo-element
-                                },
-                              }}
-                            >
-                                <TimelineSeparator>
-                                <TimelineDot />
-                                <TimelineConnector />
-                                </TimelineSeparator>
-                                <TimelineContent>
-                                    Explored ways to visualize and send a daily report of results against IP churn and IP differences to change the buckets of different providers.
-                                </TimelineContent>
-                            </TimelineItem>
-                            <TimelineItem
-                            sx={{
-                                '&:before': {
-                                  display: 'none', // Hides the ::before pseudo-element
-                                },
-                              }}
-                            >
-                                <TimelineSeparator>
-                                <TimelineDot />
-                                </TimelineSeparator>
-                                <TimelineContent>
-                                    Developed a GO application for WhatsApp campaign management using WhatsApp Business API. The scope of the application is to be used, for marketing and utility-based campaigns via different messaging templates. Added B2B functionalities for working as a Business Service Provider (BSP) and Tech Provider.
-                                </TimelineContent>
-                            </TimelineItem>
-                        </Timeline>
+                            <ThemeProvider theme={theme}>
+                                <Timeline>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                            Used Google BQ for analyzing VPN privacy dataset and improved system performance by query optimization.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                            Incorporated scripts using Python and Shell Script(Bash) to scrap different VPN extensions and configs to add new IP data points.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        <TimelineConnector />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                            Explored ways to visualize and send a daily report of results against IP churn and IP differences to change the buckets of different providers.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                    <TimelineItem>
+                                        <TimelineSeparator>
+                                        <TimelineDot />
+                                        </TimelineSeparator>
+                                        <TimelineContent>
+                                            Developed a GO application for WhatsApp campaign management using WhatsApp Business API. The scope of the application is to be used, for marketing and utility-based campaigns via different messaging templates. Added B2B functionalities for working as a Business Service Provider (BSP) and Tech Provider.
+                                        </TimelineContent>
+                                    </TimelineItem>
+                                </Timeline>
+                            </ThemeProvider>
                         </div>
                     </div>
                 </div>

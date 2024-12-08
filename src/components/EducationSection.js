@@ -10,7 +10,7 @@ const EducationSection = () => (
                 <div class="row align-items-center gx-5">
                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                         <div class="bg-light p-4 rounded-4">
-                            <div class="text-secondary fw-bolder mb-2">2019 - 2023</div>
+                            <div class="text-primary fw-bolder mb-2">2019 - 2023</div>
                             <div class="mb-2">
                                 <div class="small fw-bolder">FAST-NUCES</div>
                                 <div class="small text-muted">CFD Campus</div>

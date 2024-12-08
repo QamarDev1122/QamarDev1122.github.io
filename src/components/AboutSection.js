@@ -7,7 +7,7 @@ import ResumeSection from './ResumeSection';
 
 const AboutSection = () => (
     <>
-    <section className="bg-light py-5">
+    <section className="bg-light">
         <div className="container px-5">
             <div className="row gx-5 justify-content-center">
                 <div className="col-xxl-8">
@@ -37,9 +37,12 @@ const AboutSection = () => (
                     </div>
                 </div>
             </div>
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+            </div>
+            <ResumeSection />
         </div>
     </section>
-    <ResumeSection />
     </>
 );
 
