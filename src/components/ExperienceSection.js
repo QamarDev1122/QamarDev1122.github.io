@@ -8,6 +8,8 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import mslm from '../assets/images/mslm.png';
+import astech from '../assets/images/astech.png';
 
 const theme = createTheme({
   components: {
@@ -37,12 +39,23 @@ const ExperienceSection = () => (
         <div class="card shadow border-0 rounded-4 mb-5">
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                        <div class="bg-light p-4 rounded-4">
-                            <div class="text-primary fw-bolder mb-2">2023 - Present</div>
-                            <div class="small fw-bolder">Software Engineer</div>
-                            <div class="small text-muted">Mslm</div>
-                            <div class="small text-muted">Lahore Pakistan</div>
+                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                        <div className="bg-light p-4 rounded-4 d-flex align-items-center">
+                            <img 
+                            src={mslm} 
+                            alt="Mslm Logo" 
+                            style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
+                            />
+                            <div>
+                                <div className="text-primary fw-bolder mb-2">2023 - 2024</div>
+                                <div className="mb-2">
+                                    <div className="small fw-bolder">Software Engineer</div>
+                                    <div className="small text-muted">Mslm</div>
+                                </div>
+                                <div className="fst-italic">
+                                    <div className="small text-muted">Lahore Pakistan</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -95,12 +108,23 @@ const ExperienceSection = () => (
         <div class="card shadow border-0 rounded-4 mb-5">
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                        <div class="bg-light p-4 rounded-4">
-                            <div class="text-primary fw-bolder mb-2">2020 -2022</div>
-                            <div class="small fw-bolder">Associate Software Engineer</div>
-                            <div class="small text-muted">A'sTechware</div>
-                            <div class="small text-muted">Lahore Pakistan</div>
+                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                        <div className="bg-light p-4 rounded-4 d-flex align-items-center">
+                            <img 
+                            src={astech} 
+                            alt="Mslm Logo" 
+                            style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
+                            />
+                            <div>
+                                <div className="text-primary fw-bolder mb-2">2020 - 2022</div>
+                                <div className="mb-2">
+                                    <div className="small fw-bolder">Associate Software Engineer</div>
+                                    <div className="small text-muted">A'sTechware</div>
+                                </div>
+                                <div className="fst-italic">
+                                    <div className="small text-muted">Lahore Pakistan</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-8">

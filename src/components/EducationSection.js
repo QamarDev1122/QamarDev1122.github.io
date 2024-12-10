@@ -1,5 +1,6 @@
 // src/components/EducationSection.js
 import React from 'react';
+import fast from '../assets/images/fastnu.png'
 
 const EducationSection = () => (
     <section>
@@ -8,16 +9,23 @@ const EducationSection = () => (
         <div class="card shadow border-0 rounded-4 mb-5">
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                        <div class="bg-light p-4 rounded-4">
-                            <div class="text-primary fw-bolder mb-2">2019 - 2023</div>
-                            <div class="mb-2">
-                                <div class="small fw-bolder">FAST-NUCES</div>
-                                <div class="small text-muted">CFD Campus</div>
-                            </div>
-                            <div class="fst-italic">
-                                <div class="small text-muted">Undergraduate</div>
-                                <div class="small text-muted">Computer Science</div>
+                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                        <div className="bg-light p-4 rounded-4 d-flex align-items-center">
+                            <img 
+                            src={fast} 
+                            alt="FAST-NUCES Logo" 
+                            style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '5px', borderRadius: '50px' }} 
+                            />
+                            <div>
+                                <div className="text-primary fw-bolder mb-2">2019 - 2023</div>
+                                <div className="mb-2">
+                                    <div className="small fw-bolder">FAST-NUCES</div>
+                                    <div className="small text-muted">CFD Campus</div>
+                                </div>
+                                <div className="fst-italic">
+                                    <div className="small text-muted">Undergraduate</div>
+                                    <div className="small text-muted">Computer Science</div>
+                                </div>
                             </div>
                         </div>
                     </div>
