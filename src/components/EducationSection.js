@@ -14,7 +14,7 @@ const EducationSection = () => (
                             <img 
                             src={fast} 
                             alt="FAST-NUCES Logo" 
-                            style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '5px', borderRadius: '50px' }} 
+                            style={{ width: '70px', height: '70px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
                             />
                             <div>
                                 <div className="text-primary fw-bolder mb-2">2019 - 2023</div>

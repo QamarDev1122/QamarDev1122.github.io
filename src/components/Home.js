@@ -7,7 +7,6 @@ const Home = () => (
         <main className="flex-shrink-0">
             <Header />
             <AboutSection />
-            {/* Add other sections here */}
         </main>
     </div>
 )

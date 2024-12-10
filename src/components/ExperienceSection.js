@@ -113,7 +113,7 @@ const ExperienceSection = () => (
                             <img 
                             src={astech} 
                             alt="Mslm Logo" 
-                            style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
+                            style={{ width: '70px', height: '70px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
                             />
                             <div>
                                 <div className="text-primary fw-bolder mb-2">2020 - 2022</div>

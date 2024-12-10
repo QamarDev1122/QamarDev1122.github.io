@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import ProjectsSection from './components/ProjectsSection';
 import ContactForm from './components/ContactForm';
+import ResumeSection from './components/ResumeSection';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             {/* <Route path="/about" element={<AboutSection />} /> */}
             <Route path="/projects" element={<ProjectsSection />} />
             <Route path="/contact" element={<ContactForm />} />
+            <Route path="/resume" element={<ResumeSection />} />
             {/* Add other routes here */}
           </Routes>
         </main>

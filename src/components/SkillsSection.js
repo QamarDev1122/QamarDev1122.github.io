@@ -1,5 +1,16 @@
 // src/components/SkillsSection.js
 import React from 'react';
+import py from '../assets/images/python.svg';
+import cpp from '../assets/images/cpp.png';
+import html from '../assets/images/html.svg';
+import css from '../assets/images/css.svg';
+import saas from '../assets/images/sass.svg';
+import go from '../assets/images/go.svg';
+import node from '../assets/images/node-js.svg';
+import sh from '../assets/images/shall.jpeg';
+import js from '../assets/images/javascript.svg';
+import ts from '../assets/images/typescript.svg';
+import sql from '../assets/images/sql.jpeg'
 
 const SkillsSection = () => (
     <section>
@@ -33,19 +44,122 @@ const SkillsSection = () => (
                         <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Go</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={py} 
+                                alt="Python Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Python</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={js} 
+                                alt="JavaScript Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={go} 
+                                alt="Go Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Go</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML/CSS</div></div>
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">TypeScript</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={html} 
+                                alt="HTML Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>HTML</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={css} 
+                                alt="CSS Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={saas} 
+                                alt="SAAS Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>SAAS</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Shell Script(Bash)</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">C++</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SQL</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={node} 
+                                alt="Node.js Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={ts} 
+                                alt="TypeScript Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>TypeScript</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={sh} 
+                                alt="Shell Script(Bash) Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Shell Script(Bash)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={cpp} 
+                                alt="cpp Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>C++</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={sql} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>SQL</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* <!-- Technologies/Frameworks--> */}

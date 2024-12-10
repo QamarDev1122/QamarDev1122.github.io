@@ -1,11 +1,11 @@
-// src/components/AboutSection.js
+// src/components/CertificationSection.js
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import HelloGif from '../assets/images/hello-gif-14.gif';
 import ResumeSection from './ResumeSection';
 
-const AboutSection = () => (
+const CertificationSection = () => (
     <>
     <section className="bg-light">
         <div className="container px-5">
