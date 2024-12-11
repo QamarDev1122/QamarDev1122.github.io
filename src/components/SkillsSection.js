@@ -10,7 +10,24 @@ import node from '../assets/images/node-js.svg';
 import sh from '../assets/images/shall.jpeg';
 import js from '../assets/images/javascript.svg';
 import ts from '../assets/images/typescript.svg';
-import sql from '../assets/images/sql.jpeg'
+import sql from '../assets/images/sql.jpeg';
+import bq from '../assets/images/bq.png';
+import af from '../assets/images/airflow.png';
+import gcp from '../assets/images/gcp.png';
+import gin from '../assets/images/gin.jpeg';
+import gh from '../assets/images/github.png';
+import jq from '../assets/images/jquery.jpeg';
+import k from '../assets/images/k8s.png';
+import linux from '../assets/images/linux.png';
+import mern from '../assets/images/mern.png';
+import mongo from '../assets/images/mongo.png';
+import mysql from '../assets/images/mysql.jpeg';
+import pg from '../assets/images/pg.png';
+import pup from '../assets/images/pup.png';
+import react from '../assets/images/react.png';
+import ror from '../assets/images/ror.png';
+import sl from '../assets/images/selenium.png';
+import ss from '../assets/images/sqlserver.png';
 
 const SkillsSection = () => (
     <section>
@@ -169,14 +186,68 @@ const SkillsSection = () => (
                         <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Technologies/Frameworks</span></h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Linux</div></div>
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Git/GitHub</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">React</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={linux} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Linux</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={gh} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Git/GitHub</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={react} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>React</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MEARN</div></div>
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">RoR</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Gin</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={mern} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>MEARN</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={ror} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>RoR</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={gin} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Gin</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                         <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JQuery</div></div>
@@ -193,13 +264,58 @@ const SkillsSection = () => (
                         <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Databases</span></h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google BQ</div></div>
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Microsoft SQL Server</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MySQL</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={bq} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Google BQ</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={ss} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Microsoft SQL Server</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={mysql} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>MySQL</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PostgreSQL</div></div>
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MongoDB</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={pg} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={mongo} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* <!-- Cloud Platforms and Orchestration --> */}
@@ -209,9 +325,58 @@ const SkillsSection = () => (
                         <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Cloud Platforms and Orchestration</span></h3>
                     </div>
                     <div class="row row-cols-1 row-cols-md-3 mb-4">
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Cloud Platform</div></div>
-                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Big Query</div></div>
-                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Apache Airflow</div></div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={gcp} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Google Cloud Platform</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={k} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Kuber</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={bq} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Big Query</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={af} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Apache Airflow</span>
+                            </div>
+                        </div>
+                        <div class="col mb-4 mb-md-0">
+                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                <img 
+                                src={gh} 
+                                alt="sql Icon" 
+                                style={{width: '30px', height: '30px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px'}} 
+                                />
+                                <span>Github</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
