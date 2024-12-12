@@ -11643,7 +11643,7 @@ html {
   background-color: transparent;
   border: 1px solid #0d6efd;
   border-radius: 12px; 
-  color: black; 
+  color: #6c757d !important; 
 }
 
 /* Hover effect for cards */
