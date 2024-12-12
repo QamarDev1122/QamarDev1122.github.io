@@ -27,8 +27,8 @@ const AboutSection = () => (
                         <p className="text-muted">
                             My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
                         </p>
-                        <div className="d-flex justify-content-center fs-2 gap-4">
-                        <a class="text-gradient" href="mailto:ameer.hamza.nu@gmail.com"><i className="bi bi-envelope"></i></a>
+                        <div className="d-flex justify-content-center fs-2 gap-4" id='contect-section'>
+                            <a className="text-gradient" href="mailto:ameer.hamza.nu@gmail.com"><i className="bi bi-envelope"></i></a>
                             <a className="text-gradient" href="https://www.linkedin.com/in/contact-ameer-hamza/"><i className="bi bi-linkedin"></i></a>
                             <a className="text-gradient" href="https://github.com/ItzAmeerHamza"><i className="bi bi-github"></i></a>
                             <a className="text-gradient" href="https://www.instagram.com/am33r_ham2a/"><i className="bi bi-instagram"></i></a>

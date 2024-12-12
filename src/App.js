@@ -6,10 +6,12 @@ import Home from './components/Home';
 import ProjectsSection from './components/ProjectsSection';
 import ContactForm from './components/ContactForm';
 import ResumeSection from './components/ResumeSection';
+import ScrollToSection from '../src/components/Scroll';
 
 function App() {
   return (
     <Router>
+      <ScrollToSection />
       <div className="d-flex flex-column h-100">
         <Navbar />
         <main className="flex-shrink-0">

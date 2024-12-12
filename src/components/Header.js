@@ -10,7 +10,7 @@ const Header = () => (
                 <div className="col-xxl-5">
                     <div className="text-center text-xxl-start">
                         <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
-                            <div className="fs-6 text-uppercase">
+                            <div className="fs-7 text-uppercase">
                                 Planning &middot; Defining &middot; Designing &middot; Building &middot; Testing &middot; Deployment
                             </div>
                         </div>

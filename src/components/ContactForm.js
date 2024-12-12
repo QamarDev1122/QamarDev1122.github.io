@@ -6,10 +6,17 @@ const ContactForm = () => (
     <section className="py-5">
         <div className="container px-5">
             <div className="bg-light rounded-4 py-5 px-4 px-md-5">
-                <div className="text-center mb-5">
+                <div className="text-center">
                     <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i className="bi bi-envelope"></i></div>
                     <h1 className="fw-bolder">Get in touch</h1>
                     <p className="lead fw-normal text-muted mb-0">Let's work together!</p>
+                </div>
+                <div className="d-flex justify-content-center fs-2 gap-4">
+                    <a class="text-gradient" href="mailto:ameer.hamza.nu@gmail.com"><i className="bi bi-envelope"></i></a>
+                    <a className="text-gradient" href="https://www.linkedin.com/in/contact-ameer-hamza/"><i className="bi bi-linkedin"></i></a>
+                    <a className="text-gradient" href="https://github.com/ItzAmeerHamza"><i className="bi bi-github"></i></a>
+                    <a className="text-gradient" href="https://www.instagram.com/am33r_ham2a/"><i className="bi bi-instagram"></i></a>
+                    <a className="text-gradient" href="https://twitter.com/Am33rHam2a"><i className="bi bi-twitter"></i></a>
                 </div>
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-8 col-xl-6">
@@ -44,7 +51,11 @@ const ContactForm = () => (
                                 </div>
                             </div>                                    
                             <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
-                            <div className="d-grid"><button className="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                            <div className="d-grid">
+                                <a className="btn btn-primary btn-lg" id="submitButton" href='/#contect-section'>
+                                    Submit
+                                </a>
+                            </div>
                         </form>
                     </div>
                 </div>
