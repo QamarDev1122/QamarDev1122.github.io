@@ -1,5 +1,6 @@
 // src/components/Navbar.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 
 const Navbar = () => (
@@ -21,10 +22,22 @@ const Navbar = () => (
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                    <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/resume">Resume</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/projects">Projects</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/contact">Contact</a></li>
+                    <li className="nav-item">
+                    <Link className="nav-link" to="/">Home</Link>
+                    {/* <a className="nav-link" href="/">Home</a> */}
+                    </li>
+                    <li className="nav-item">
+                    <Link className="nav-link" to="/resume">Resume</Link>
+                        {/* <a className="nav-link" href="/resume">Resume</a> */}
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/projects">Projects</Link>
+                        {/* <a className="nav-link" href="/projects">Projects</a> */}
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/contact">Contact</Link>
+                        {/* <a className="nav-link" href="/contact">Contact</a> */}
+                    </li>
                 </ul>
             </div>
         </div>

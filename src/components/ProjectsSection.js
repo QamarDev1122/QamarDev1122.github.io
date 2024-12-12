@@ -1,5 +1,6 @@
 // src/components/ProjectsSection.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import dc from '../assets/images/deepcrowd.png'
 
 const ProjectsSection = () => (
@@ -449,7 +450,8 @@ const ProjectsSection = () => (
         <div className="container px-5 my-5">
             <div className="text-center">
                 <h2 className="display-4 fw-bolder mb-4">Let's build something together</h2>
-                <a className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Contact me</a>
+                <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/contact">Contact me</Link>
+                {/* <a className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Contact me</a> */}
             </div>
         </div>
         </section>

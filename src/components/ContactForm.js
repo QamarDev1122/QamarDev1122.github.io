@@ -1,5 +1,6 @@
 // src/components/AboutSection.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const ContactForm = () => (
@@ -52,9 +53,7 @@ const ContactForm = () => (
                             </div>                                    
                             <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
                             <div className="d-grid">
-                                <a className="btn btn-primary btn-lg" id="submitButton" href='/#contect-section'>
-                                    Submit
-                                </a>
+                                <Link className="btn btn-primary btn-lg" to="/#contect-section">Submit</Link>
                             </div>
                         </form>
                     </div>
