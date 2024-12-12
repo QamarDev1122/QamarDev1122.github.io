@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "version": "0.1.0",
-    "homepage": "https://ItzAmeerHamza.github.io",
+    "homepage": "https://ItzAmeerHamza.github.io/",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.13.5",

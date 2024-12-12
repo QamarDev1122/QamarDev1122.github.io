@@ -4,13 +4,13 @@ import SVGDots from './SVGDots';
 import Profile from '../assets/images/profile.png';
 
 const Header = () => (
-    <header className="py-5">
+    <header>
         <div className="container px-5 pb-5">
             <div className="row gx-5 align-items-center">
                 <div className="col-xxl-5">
                     <div className="text-center text-xxl-start">
                         <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
-                            <div className="text-uppercase">
+                            <div className="fs-6 text-uppercase">
                                 Planning &middot; Defining &middot; Designing &middot; Building &middot; Testing &middot; Deployment
                             </div>
                         </div>
@@ -27,7 +27,11 @@ const Header = () => (
                 <div className="col-xxl-7">
                     <div className="d-flex justify-content-center mt-5 mt-xxl-0">
                         <div class="profile bg-gradient-primary-to-secondary">
-                        <img class="profile-img" src={Profile} alt="My Image" />
+                            <img 
+                                class="profile-img"
+                                src={Profile} 
+                                alt="My Image"
+                            />
                             <div class="dots-1">
                                 <SVGDots />
                             </div>

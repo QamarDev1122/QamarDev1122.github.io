@@ -11639,6 +11639,16 @@ html {
   fill: #1e30f3;
 }
 
+/* Hover effect for cards */
+.hover-effect {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05); /* Slightly scale the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a deeper shadow */
+}
+
 @media (min-width: 576px) {
   .profile {
     height: 60vw;
