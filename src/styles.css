@@ -11639,6 +11639,13 @@ html {
   fill: #1e30f3;
 }
 
+.primary-border {
+  background-color: transparent;
+  border: 1px solid #0d6efd;
+  border-radius: 12px; 
+  color: black; 
+}
+
 /* Hover effect for cards */
 .hover-effect {
   transition: transform 0.3s, box-shadow 0.3s;

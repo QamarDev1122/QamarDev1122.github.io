@@ -46,10 +46,10 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">Python</span>
-                                        <span className="badge bg-primary me-2">PyTorch</span>
-                                        <span className="badge bg-primary me-2">OpenCV</span>
-                                        <span className="badge bg-primary me-2">PyQt</span>
+                                        <span className="badge border me-2 primary-border me-2">Python</span>
+                                        <span className="badge border me-2 primary-border me-2">PyTorch</span>
+                                        <span className="badge border me-2 primary-border me-2">OpenCV</span>
+                                        <span className="badge border me-2 primary-border me-2">PyQt</span>
                                     </div>
                                 </div>
                             </div>
@@ -83,9 +83,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">Python</span>
-                                        <span className="badge bg-secondary me-2">OpenCV</span>
-                                        <span className="badge bg-success me-2">PyTorch</span>
+                                        <span className="badge border me-2 primary-border me-2">Python</span>
+                                        <span className="badge border me-2 primary-border me-2">OpenCV</span>
+                                        <span className="badge border me-2 primary-border me-2">PyTorch</span>
                                     </div>
                                 </div>
                             </div>
@@ -117,9 +117,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">Python</span>
-                                        <span className="badge bg-success me-2">OpenCV</span>
-                                        <span className="badge bg-secondary me-2">Sklearn</span>
+                                        <span className="badge border me-2 primary-border me-2">Python</span>
+                                        <span className="badge border me-2 primary-border me-2">OpenCV</span>
+                                        <span className="badge border me-2 primary-border me-2">Sklearn</span>
                                     </div>
                                 </div>
                             </div>
@@ -160,10 +160,10 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">Go</span>
-                                        <span className="badge bg-primary me-2">TypeScript</span>
-                                        <span className="badge bg-primary me-2">PostgreSQL</span>
-                                        <span className="badge bg-primary me-2">Business Platform</span>
+                                        <span className="badge border me-2 primary-border me-2">Go</span>
+                                        <span className="badge border me-2 primary-border me-2">TypeScript</span>
+                                        <span className="badge border me-2 primary-border me-2">PostgreSQL</span>
+                                        <span className="badge border me-2 primary-border me-2">Business Platform</span>
                                     </div>
                                 </div>
                             </div>
@@ -194,11 +194,11 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">Google BQ</span>
-                                        <span className="badge bg-secondary me-2">Python</span>
-                                        <span className="badge bg-success me-2">Shell</span>
-                                        <span className="badge bg-success me-2">JavaScript</span>
-                                        <span className="badge bg-success me-2">Retool</span>
+                                        <span className="badge border me-2 primary-border me-2">Google BQ</span>
+                                        <span className="badge border me-2 primary-border me-2">Python</span>
+                                        <span className="badge border me-2 primary-border me-2">Shell</span>
+                                        <span className="badge border me-2 primary-border me-2">JavaScript</span>
+                                        <span className="badge border me-2 primary-border me-2">Retool</span>
                                     </div>
                                 </div>
                             </div>
@@ -230,10 +230,10 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">RoR</span>
-                                        <span className="badge bg-primary me-2">html/scss</span>
-                                        <span className="badge bg-success me-2">PostgreSQL</span>
-                                        <span className="badge bg-secondary me-2">Heroku</span>
+                                        <span className="badge border me-2 primary-border me-2">RoR</span>
+                                        <span className="badge border me-2 primary-border me-2">html/scss</span>
+                                        <span className="badge border me-2 primary-border me-2">PostgreSQL</span>
+                                        <span className="badge border me-2 primary-border me-2">Heroku</span>
                                     </div>
                                 </div>
                             </div>
@@ -265,9 +265,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">.Net</span>
-                                        <span className="badge bg-success me-2">React/TypeScript</span>
-                                        <span className="badge bg-secondary me-2">Swagger</span>
+                                        <span className="badge border me-2 primary-border me-2">.Net</span>
+                                        <span className="badge border me-2 primary-border me-2">React/TypeScript</span>
+                                        <span className="badge border me-2 primary-border me-2">Swagger</span>
                                     </div>
                                 </div>
                             </div>
@@ -299,9 +299,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">RoR</span>
-                                        <span className="badge bg-success me-2">html/scss</span>
-                                        <span className="badge bg-secondary me-2">PostgreSQL</span>
+                                        <span className="badge border me-2 primary-border me-2">RoR</span>
+                                        <span className="badge border me-2 primary-border me-2">html/scss</span>
+                                        <span className="badge border me-2 primary-border me-2">PostgreSQL</span>
                                     </div>
                                 </div>
                             </div>
@@ -332,9 +332,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">RoR</span>
-                                        <span className="badge bg-success me-2">html/scss</span>
-                                        <span className="badge bg-secondary me-2">PostgreSQL</span>
+                                        <span className="badge border me-2 primary-border me-2">RoR</span>
+                                        <span className="badge border me-2 primary-border me-2">html/scss</span>
+                                        <span className="badge border me-2 primary-border">PostgreSQL</span>
                                     </div>
                                 </div>
                             </div>
@@ -366,9 +366,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">MERN</span>
-                                        <span className="badge bg-success me-2">Mongoose</span>
-                                        <span className="badge bg-secondary me-2">Github</span>
+                                        <span className="badge border me-2 primary-border">MERN</span>
+                                        <span className="badge border me-2 primary-border">Mongoose</span>
+                                        <span className="badge border me-2 primary-border">Github</span>
                                     </div>
                                 </div>
                             </div>
@@ -400,9 +400,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">RoR</span>
-                                        <span className="badge bg-success me-2">RSpec</span>
-                                        <span className="badge bg-secondary me-2">Github</span>
+                                        <span className="badge border me-2 primary-border">RoR</span>
+                                        <span className="badge border me-2 primary-border">RSpec</span>
+                                        <span className="badge border me-2 primary-border">Github</span>
                                     </div>
                                 </div>
                             </div>
@@ -433,9 +433,9 @@ const ProjectsSection = () => (
                                         />
                                     </div>
                                     <div className="p-3">
-                                        <span className="badge bg-primary me-2">C#</span>
-                                        <span className="badge bg-success me-2">SQL</span>
-                                        <span className="badge bg-secondary me-2">Github</span>
+                                        <span className="badge border me-2 primary-border">C#</span>
+                                        <span className="badge border me-2 primary-border">SQL</span>
+                                        <span className="badge border me-2 primary-border">Github</span>
                                     </div>
                                 </div>
                             </div>
