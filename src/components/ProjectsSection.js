@@ -1,7 +1,8 @@
 // src/components/ProjectsSection.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import dc from '../assets/images/deepcrowd.png'
+import dc from '../assets/images/deepcrowd.png';
+import rms from '../assets/images/rms.png';
 
 const ProjectsSection = () => (
     <>
@@ -421,13 +422,13 @@ const ProjectsSection = () => (
                                         </div>
                                         <img
                                         className="img-fluid"
-                                        src="https://dummyimage.com/300x400/343a40/6c757d"
+                                        src={rms}
                                         alt="Deep Malaria Detection"
                                         style={{
                                             width: '150px',
                                             height: '150px',
                                             objectFit: 'contain',
-                                            borderRadius: '15px',
+                                            borderRadius: '50px',
                                             marginRight: '10px',
                                         }}
                                         />
