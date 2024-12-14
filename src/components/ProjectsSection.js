@@ -5,7 +5,7 @@ import rms from '../assets/images/rms.png';
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   
-  const projects = [
+  const mlProjects = [
     {
       id: 1,
       title: "DeepCrowd",
@@ -24,13 +24,60 @@ const ProjectsSection = () => {
       description: "Developed a machine learning algorithm to classify pedestrians into multiple classes using feature fusion and support vector machine.",
       images: [rms, dc],
     },
+  ];
+
+    
+  const webProjects = [
     {
-      id: 3,
+      id: 1,
       title: "Web Based Projects",
       description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
       images: [rms, dc],
     },
-  ];
+    {
+      id: 2,
+      title: "IPinfo.io",
+      description: "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
+      images: [rms, dc],
+    },
+    {
+      id: 3,
+      title: "instashowing",
+      description: "The Showing Solution for Forward Thinking Real Estate People 15,000+ agents, teams, brokers and MLSs are up and running with Instashowing. ",
+      images: [rms, dc],
+    },
+    {
+      id: 4,
+      title: "Mercuri Admin Portal",
+      description: "Mercuri is an application used for sport enthusiasts to get online trainings from top coaches, practitioners, and trainers.",
+      images: [rms, dc],
+    },
+    {
+      id: 5,
+      title: "DesireDev: A Matrimonial App",
+      description: "A matrimonial application used for bringing people with similar traits a step closer to each other.",
+      images: [rms, dc],
+    },
+    {
+      id: 6,
+      title: "Web Based Projects",
+      description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
+      images: [rms, dc],
+    },
+    {
+      id: 7,
+      title: "Web Based Projects",
+      description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
+      images: [rms, dc],
+    },
+    {
+      id: 8,
+      title: "Web Based Projects",
+      description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
+      images: [rms, dc],
+    },
+    
+  ]
 
   return (
     <>
@@ -45,11 +92,11 @@ const ProjectsSection = () => {
                 <span className="text-gradient d-inline">Machine Learning Based Projects</span>
               </h1>
               <div className="row">
-                {projects.map((project) => (
+                {mlProjects.map((project) => (
                   <div key={project.id} className="col-lg-4 mb-4" 
                   data-bs-toggle="modal"
-data-bs-target="#projectModal"
-onClick={() => setSelectedProject(project)}
+                  data-bs-target="#projectModal"
+                  onClick={() => setSelectedProject(project)}
                   >
                   <div
                       className="card overflow-hidden shadow rounded-4 border-0 h-100 hover-effect"
@@ -57,7 +104,6 @@ onClick={() => setSelectedProject(project)}
                   >
                       <div className="card-body p-0">
                           <div className="d-flex align-items-center flex-row">
-                              {/* Description */}
                               <div className="p-3" style={{ flex: 1 }}>
                                   <h2 className="fw-bolder">{project.title}</h2>
                                   <p>{project.description}</p>
@@ -88,6 +134,55 @@ onClick={() => setSelectedProject(project)}
               </div> 
             </div>
           </div>
+          <div className="row gx-5 justify-content-center">
+            <div className="container">
+                <h1 className="fw-bolder mb-3">
+                    <span className="text-gradient d-inline">Web Based Projects</span>
+                </h1>
+                <div className="row">
+                {webProjects.map((project) => (
+                  <div key={project.id} className="col-lg-4 mb-4" 
+                  data-bs-toggle="modal"
+                  data-bs-target="#projectModal"
+                  onClick={() => setSelectedProject(project)}
+                  >
+                  <div
+                      className="card overflow-hidden shadow rounded-4 border-0 h-100 hover-effect"
+                      style={{ height: '250px' }}
+                  >
+                      <div className="card-body p-0">
+                          <div className="d-flex align-items-center flex-row">
+                              <div className="p-3" style={{ flex: 1 }}>
+                                  <h2 className="fw-bolder">{project.title}</h2>
+                                  <p>{project.description}</p>
+                              </div>
+                              <img
+                              className="img-fluid"
+                              src={dc}
+                              alt="DeepCrowd"
+                              style={{
+                                  width: '150px',
+                                  height: '150px',
+                                  objectFit: 'contain',
+                                  borderRadius: '15px',
+                                  marginRight: '10px',
+                              }}
+                              />
+                          </div>
+                          <div className="p-3">
+                              <span className="badge border me-2 primary-border me-2">Python</span>
+                              <span className="badge border me-2 primary-border me-2">PyTorch</span>
+                              <span className="badge border me-2 primary-border me-2">OpenCV</span>
+                              <span className="badge border me-2 primary-border me-2">PyQt</span>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                ))}
+                </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
