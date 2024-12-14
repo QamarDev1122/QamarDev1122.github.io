@@ -34,22 +34,62 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <div className="row">
-        {projects.map((project) => (
-          <div
-            key={project.id}
-            className="card shadow rounded-4 border-0 mb-5"
-            data-bs-toggle="modal"
-            data-bs-target="#projectModal"
-            onClick={() => setSelectedProject(project)}
-          >
-            <div className="card-body">
-              <h2 className="fw-bolder">{project.title}</h2>
-              <p>{project.description}</p>
+      <section className="py-5">
+        <div className="container px-5 mb-5">
+          <div className="text-center mb-5">
+            <h1 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Projects</span></h1>
+          </div>
+          <div className="row gx-5 justify-content-center">
+            <div className="container">
+              <h1 className="fw-bolder mb-3">
+                <span className="text-gradient d-inline">Machine Learning Based Projects</span>
+              </h1>
+              <div className="row">
+                {projects.map((project) => (
+                  <div key={project.id} className="col-lg-4 mb-4" 
+                  data-bs-toggle="modal"
+data-bs-target="#projectModal"
+onClick={() => setSelectedProject(project)}
+                  >
+                  <div
+                      className="card overflow-hidden shadow rounded-4 border-0 h-100 hover-effect"
+                      style={{ height: '250px' }}
+                  >
+                      <div className="card-body p-0">
+                          <div className="d-flex align-items-center flex-row">
+                              {/* Description */}
+                              <div className="p-3" style={{ flex: 1 }}>
+                                  <h2 className="fw-bolder">{project.title}</h2>
+                                  <p>{project.description}</p>
+                              </div>
+                              <img
+                              className="img-fluid"
+                              src={dc}
+                              alt="DeepCrowd"
+                              style={{
+                                  width: '150px',
+                                  height: '150px',
+                                  objectFit: 'contain',
+                                  borderRadius: '15px',
+                                  marginRight: '10px',
+                              }}
+                              />
+                          </div>
+                          <div className="p-3">
+                              <span className="badge border me-2 primary-border me-2">Python</span>
+                              <span className="badge border me-2 primary-border me-2">PyTorch</span>
+                              <span className="badge border me-2 primary-border me-2">OpenCV</span>
+                              <span className="badge border me-2 primary-border me-2">PyQt</span>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                ))}
+              </div> 
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      </section>
 
       {selectedProject && (
         <div
