@@ -11639,6 +11639,22 @@ html {
   fill: #1e30f3;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  border-radius: 8px;
+  margin: 5px;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
 .primary-border {
   background-color: transparent;
   border: 1px solid #0d6efd;
