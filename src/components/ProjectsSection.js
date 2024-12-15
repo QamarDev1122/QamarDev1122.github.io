@@ -13,76 +13,88 @@ const ProjectsSection = () => {
       title: "DeepCrowd",
       description: "An application that leverages computer vision and deep learning techniques to enable efficient crowd behavioral analysis, including anomaly detection and crowd density estimation.",
       images: [dc, rms],
+      tech: ["Python", "PyTorch", "OpenCV", "PyQt"]
     },
     {
       id: 2,
       title: "Deep Malaria Detection",
       description: "A deep learning-based application that detects and classifies malaria cells in microscopic images of human blood smears.",
       images: [rms, dc],
+      tech: ["Python", "PyTorch", "OpenCV"]
     },
     {
       id: 3,
       title: "Pedestrian Classification",
       description: "Developed a machine learning algorithm to classify pedestrians into multiple classes using feature fusion and support vector machine.",
       images: [rms, dc],
+      tech: ["Python", "OpenCV", "Sklearn"]
     },
   ];
-
-    
+  
+  
   const webProjects = [
     {
       id: 1,
       title: "Campaign Management System",
       description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
       images: [rms, dc],
+      tech: ["Go", "TypeScript", "PostgreSQL", "WhatsApp Business API"]
     },
     {
       id: 2,
       title: "IPinfo.io",
       description: "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
       images: [rms, dc],
+      tech: ["Google BQ", "Google Cloud Plateform", "Python", "Shell", "JavaScript", "Retool"]
     },
     {
       id: 3,
       title: "instashowing",
       description: "The Showing Solution for Forward Thinking Real Estate People 15,000+ agents, teams, brokers and MLSs are up and running with Instashowing. ",
       images: [rms, dc],
+      tech: ["RoR", "html/scss", "PostgreSQL", "Heroku"]
     },
     {
       id: 4,
       title: "Mercuri Admin Portal",
       description: "Mercuri is an application used for sport enthusiasts to get online trainings from top coaches, practitioners, and trainers.",
       images: [rms, dc],
+      tech: [".Net", "React/TypeScript", "Swagger"]
     },
     {
       id: 5,
       title: "DesireDev: A Matrimonial App",
       description: "A matrimonial application used for bringing people with similar traits a step closer to each other.",
       images: [rms, dc],
+      tech: ["RoR", "html/scss", "PostgreSQL"]
     },
     {
       id: 6,
       title: "Zentratoo",
       description: "An online market place used to sale daily commmodities in German market.",
       images: [rms, dc],
+      tech: ["RoR", "html/scss", "PostgreSQL"]
     },
     {
       id: 7,
       title: "Ebazar",
       description: "An online market place for selling and purchasing goods.",
       images: [rms, dc],
+      tech: ["MERN", "Mongoose", "Github"]
     },
     {
       id: 8,
       title: "Ewagers",
       description: "A skill-based Esports wagering platform.",
       images: [rms, dc],
+      tech: ["RoR", "RSpec", "Github"]
     },
     {
       id: 9,
       title: "Railway Management System",
       description: "An automation of daily operations of Pakistan Railways.",
       images: [rms, dc],
+      tech: ["C#", "SQL", "SQL"]
     },
     
   ]
@@ -130,10 +142,12 @@ const ProjectsSection = () => {
                               />
                           </div>
                           <div className="p-3">
-                              <span className="badge border me-2 primary-border me-2">Python</span>
-                              <span className="badge border me-2 primary-border me-2">PyTorch</span>
-                              <span className="badge border me-2 primary-border me-2">OpenCV</span>
-                              <span className="badge border me-2 primary-border me-2">PyQt</span>
+                            {
+                              project.tech.map((t) => (
+                                <span className="badge border me-2 primary-border me-2">{t}</span>
+
+                              ))
+                            }
                           </div>
                       </div>
                   </div>
