@@ -144,7 +144,7 @@ const ProjectsSection = () => {
                           <div className="p-3">
                             {
                               project.tech.map((t) => (
-                                <span className="badge border me-2 primary-border me-2">{t}</span>
+                                <span className="badge border me-2 primary-border me-2 mb-1">{t}</span>
 
                               ))
                             }
@@ -192,10 +192,12 @@ const ProjectsSection = () => {
                               />
                           </div>
                           <div className="p-3">
-                              <span className="badge border me-2 primary-border me-2">Python</span>
-                              <span className="badge border me-2 primary-border me-2">PyTorch</span>
-                              <span className="badge border me-2 primary-border me-2">OpenCV</span>
-                              <span className="badge border me-2 primary-border me-2">PyQt</span>
+                            {
+                              project.tech.map((t) => (
+                                <span className="badge border me-2 primary-border me-2 mb-1">{t}</span>
+
+                              ))
+                            }
                           </div>
                       </div>
                   </div>
