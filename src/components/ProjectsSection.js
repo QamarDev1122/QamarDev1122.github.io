@@ -15,6 +15,13 @@ import rd5 from '../assets/images/rd5.png';
 import rd6 from '../assets/images/rd6.png';
 import crmslogo from '../assets/images/crmslogo.png';
 import crmsIcon from '../assets/images/crms_icon.png';
+import dmd from '../assets/images/dmd.png';
+import insta from '../assets/images/insta.png';
+import insta1 from '../assets/images/insta1.png';
+import insta2 from '../assets/images/insta2.png';
+import insta3 from '../assets/images/insta3.png';
+import insta4 from '../assets/images/insta4.png';
+import web from '../assets/images/web.png';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -31,14 +38,14 @@ const ProjectsSection = () => {
       id: 2,
       title: "Deep Malaria Detection",
       description: "A deep learning-based application that detects and classifies malaria cells in microscopic images of human blood smears.",
-      images: [rms, dc],
+      images: [dmd],
       tech: ["Python", "PyTorch", "OpenCV"]
     },
     {
       id: 3,
       title: "Pedestrian Classification",
       description: "Developed a machine learning algorithm to classify pedestrians into multiple classes using feature fusion and support vector machine.",
-      images: [rms, dc],
+      images: [web],
       tech: ["Python", "OpenCV", "Sklearn"]
     },
   ];
@@ -63,49 +70,49 @@ const ProjectsSection = () => {
       id: 3,
       title: "instashowing",
       description: "The Showing Solution for Forward Thinking Real Estate People 15,000+ agents, teams, brokers and MLSs are up and running with Instashowing. ",
-      images: [rms, dc],
+      images: [insta, insta1, insta2, insta3, insta4],
       tech: ["RoR", "html/scss", "PostgreSQL", "Heroku"]
     },
     {
       id: 4,
       title: "Mercuri Admin Portal",
       description: "Mercuri is an application used for sport enthusiasts to get online trainings from top coaches, practitioners, and trainers.",
-      images: [rms, dc],
+      images: [web],
       tech: [".Net", "React/TypeScript", "Swagger"]
     },
     {
       id: 5,
       title: "DesireDev: A Matrimonial App",
       description: "A matrimonial application used for bringing people with similar traits a step closer to each other.",
-      images: [rms, dc],
+      images: [web],
       tech: ["RoR", "html/scss", "PostgreSQL"]
     },
     {
       id: 6,
       title: "Zentratoo",
       description: "An online market place used to sale daily commmodities in German market.",
-      images: [rms, dc],
+      images: [web],
       tech: ["RoR", "html/scss", "PostgreSQL"]
     },
     {
       id: 7,
       title: "Ebazar",
       description: "An online market place for selling and purchasing goods.",
-      images: [rms, dc],
+      images: [web],
       tech: ["MERN", "Mongoose", "Github"]
     },
     {
       id: 8,
       title: "Ewagers",
       description: "A skill-based Esports wagering platform.",
-      images: [rms, dc],
+      images: [web],
       tech: ["RoR", "RSpec", "Github"]
     },
     {
       id: 9,
       title: "Railway Management System",
       description: "An automation of daily operations of Pakistan Railways.",
-      images: [rms, dc],
+      images: [rms],
       tech: ["C#", "SQL", "SQL"]
     },
     
