@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+  
 import dc from '../assets/images/deepcrowd.png';
 import rms from '../assets/images/rms.png';
 
@@ -30,7 +32,7 @@ const ProjectsSection = () => {
   const webProjects = [
     {
       id: 1,
-      title: "Web Based Projects",
+      title: "Campaign Management System",
       description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
       images: [rms, dc],
     },
@@ -60,20 +62,26 @@ const ProjectsSection = () => {
     },
     {
       id: 6,
-      title: "Web Based Projects",
-      description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
+      title: "Zentratoo",
+      description: "An online market place used to sale daily commmodities in German market.",
       images: [rms, dc],
     },
     {
       id: 7,
-      title: "Web Based Projects",
-      description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
+      title: "Ebazar",
+      description: "An online market place for selling and purchasing goods.",
       images: [rms, dc],
     },
     {
       id: 8,
-      title: "Web Based Projects",
-      description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
+      title: "Ewagers",
+      description: "A skill-based Esports wagering platform.",
+      images: [rms, dc],
+    },
+    {
+      id: 9,
+      title: "Railway Management System",
+      description: "An automation of daily operations of Pakistan Railways.",
       images: [rms, dc],
     },
     
@@ -185,6 +193,14 @@ const ProjectsSection = () => {
 
         </div>
       </section>
+      <section className="py-5 bg-gradient-primary-to-secondary text-white">
+        <div className="container px-5 my-5">
+            <div className="text-center">
+                <h2 className="display-4 fw-bolder mb-4">Let's build something together</h2>
+                <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/contact">Contact me</Link>
+            </div>
+        </div>
+        </section>
 
       {selectedProject && (
         <div
