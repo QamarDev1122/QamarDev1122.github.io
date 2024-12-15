@@ -120,7 +120,7 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <section className="py-5">
+      <section>
         <div className="container px-5 mb-5">
           <div className="text-center mb-5">
             <h1 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Projects</span></h1>
@@ -142,24 +142,37 @@ const ProjectsSection = () => {
                       style={{ height: '250px' }}
                   >
                       <div className="card-body p-0">
-                          <div className="d-flex align-items-center flex-row">
-                              <div className="p-3" style={{ flex: 1 }}>
-                                  <h2 className="fw-bolder">{project.title}</h2>
-                                  <p>{project.description}</p>
-                              </div>
-                              <img
+                        <div className="d-flex align-items-center flex-row">
+                          <div className="p-3" style={{ flex: 1 }}>
+                            <h2 className="fw-bolder">{project.title}</h2>
+                            <p>{project.description}</p>
+                          </div>
+                          <div
+                            style={{
+                              width: '200px',
+                              height: '150px',
+                              borderRadius: '10%',
+                              overflow: 'hidden',
+                              marginRight: '10px',
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              background: '#f0f0f0',
+                            }}
+                          >
+                            <img
                               className="img-fluid"
                               src={project.images[0]}
                               alt="DeepCrowd"
                               style={{
-                                  width: '150px',
-                                  height: '150px',
-                                  objectFit: 'contain',
-                                  borderRadius: '15px',
-                                  marginRight: '10px',
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'cover',
                               }}
-                              />
+                            />
                           </div>
+                        </div>
+
                           <div className="p-3">
                             {
                               project.tech.map((t) => (
@@ -192,24 +205,37 @@ const ProjectsSection = () => {
                       style={{ height: '250px' }}
                   >
                       <div className="card-body p-0">
-                          <div className="d-flex align-items-center flex-row">
-                              <div className="p-3" style={{ flex: 1 }}>
-                                  <h2 className="fw-bolder">{project.title}</h2>
-                                  <p>{project.description}</p>
-                              </div>
-                              <img
+                      <div className="d-flex align-items-center flex-row">
+                          <div className="p-3" style={{ flex: 1 }}>
+                            <h2 className="fw-bolder">{project.title}</h2>
+                            <p>{project.description}</p>
+                          </div>
+                          <div
+                            style={{
+                              width: '200px',
+                              height: '150px',
+                              borderRadius: '10%',
+                              overflow: 'hidden',
+                              marginRight: '10px',
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              background: '#f0f0f0',
+                            }}
+                          >
+                            <img
                               className="img-fluid"
                               src={project.images[0]}
                               alt="DeepCrowd"
                               style={{
-                                  width: '150px',
-                                  height: '150px',
-                                  objectFit: 'contain',
-                                  borderRadius: '15px',
-                                  marginRight: '10px',
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'cover',
                               }}
-                              />
+                            />
                           </div>
+                        </div>
+
                           <div className="p-3">
                             {
                               project.tech.map((t) => (
