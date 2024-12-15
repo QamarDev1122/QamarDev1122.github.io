@@ -3,6 +3,18 @@ import { Link } from 'react-router-dom';
   
 import dc from '../assets/images/deepcrowd.png';
 import rms from '../assets/images/rms.png';
+import de1 from '../assets/images/de1.png';
+import de2 from '../assets/images/de2.png';
+import model from '../assets/images/model.png';
+import uniformity from '../assets/images/uniformity.png';
+import rd1 from '../assets/images/rd1.png';
+import rd2 from '../assets/images/rd2.png';
+import rd3 from '../assets/images/rd3.png';
+import rd4 from '../assets/images/rd4.png';
+import rd5 from '../assets/images/rd5.png';
+import rd6 from '../assets/images/rd6.png';
+import crmslogo from '../assets/images/crmslogo.png';
+import crmsIcon from '../assets/images/crms_icon.png';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -12,7 +24,7 @@ const ProjectsSection = () => {
       id: 1,
       title: "DeepCrowd",
       description: "An application that leverages computer vision and deep learning techniques to enable efficient crowd behavioral analysis, including anomaly detection and crowd density estimation.",
-      images: [dc, rms],
+      images: [dc, model, de1, de2, uniformity],
       tech: ["Python", "PyTorch", "OpenCV", "PyQt"]
     },
     {
@@ -37,14 +49,14 @@ const ProjectsSection = () => {
       id: 1,
       title: "Campaign Management System",
       description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
-      images: [rms, dc],
+      images: [crmsIcon, crmslogo, crmsIcon],
       tech: ["Go", "TypeScript", "PostgreSQL", "WhatsApp Business API"]
     },
     {
       id: 2,
       title: "IPinfo.io",
       description: "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
-      images: [rms, dc],
+      images: [rd1, rd2, rd3, rd4, rd5, rd6],
       tech: ["Google BQ", "Google Cloud Plateform", "Python", "Shell", "JavaScript", "Retool"]
     },
     {
@@ -130,7 +142,7 @@ const ProjectsSection = () => {
                               </div>
                               <img
                               className="img-fluid"
-                              src={dc}
+                              src={project.images[0]}
                               alt="DeepCrowd"
                               style={{
                                   width: '150px',
@@ -180,7 +192,7 @@ const ProjectsSection = () => {
                               </div>
                               <img
                               className="img-fluid"
-                              src={dc}
+                              src={project.images[0]}
                               alt="DeepCrowd"
                               style={{
                                   width: '150px',
@@ -229,9 +241,9 @@ const ProjectsSection = () => {
           <div className="modal-dialog modal-lg">
             <div className="modal-content">
               <div className="modal-header">
-                <h5 className="modal-title" id="projectModalLabel">
+                <h2 className="fw-bolder modal-title" id="projectModalLabel">
                   {selectedProject.title}
-                </h5>
+                </h2>
                 <button
                   type="button"
                   className="btn-close"
@@ -249,22 +261,13 @@ const ProjectsSection = () => {
                       alt={`${selectedProject.title} - ${index + 1}`}
                       className="img-thumbnail m-2"
                       style={{
-                        width: "200px",
+                        width: "300px",
                         height: "150px",
                         objectFit: "cover",
                       }}
                     />
                   ))}
                 </div>
-              </div>
-              <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Close
-                </button>
               </div>
             </div>
           </div>
