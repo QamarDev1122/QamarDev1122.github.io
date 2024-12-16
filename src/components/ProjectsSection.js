@@ -28,7 +28,11 @@ import desire2 from '../assets/images/desire2.png';
 import desire3 from '../assets/images/desire3.png';
 import zent from '../assets/images/zentrato.png';
 import ip from '../assets/images/ipinfo.png';
+import mercuriicon from '../assets/images/mercurilogo.png';
 import mercuri from '../assets/images/mercuri.png';
+import mercuri1 from '../assets/images/mercuri1.png';
+import mercuri2 from '../assets/images/mercuri2.png';
+import mercuri3 from '../assets/images/mercuri3.png';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -84,7 +88,7 @@ const ProjectsSection = () => {
       id: 4,
       title: "Mercuri Admin Portal",
       description: "Mercuri is an application used for sport enthusiasts to get online trainings from top coaches, practitioners, and trainers.",
-      images: [web, mercuri],
+      images: [mercuriicon, mercuri, mercuri1, mercuri2, mercuri3],
       tech: [".Net", "React/TypeScript", "Swagger"]
     },
     {

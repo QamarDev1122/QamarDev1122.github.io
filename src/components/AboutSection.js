@@ -3,10 +3,8 @@ import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import HelloGif from '../assets/images/hello-gif-14.gif';
-import ResumeSection from './ResumeSection';
 
 import dc from '../assets/images/deepcrowd.png';
-import rms from '../assets/images/rms.png';
 import de1 from '../assets/images/de1.png';
 import de2 from '../assets/images/de2.png';
 import model from '../assets/images/model.png';
@@ -19,15 +17,6 @@ import rd5 from '../assets/images/rd5.png';
 import rd6 from '../assets/images/rd6.png';
 import crmslogo from '../assets/images/crmslogo.svg';
 import crmsIcon from '../assets/images/crms_icon.png';
-import dmd from '../assets/images/dmd.png';
-import insta from '../assets/images/insta.png';
-import insta1 from '../assets/images/insta1.png';
-import insta2 from '../assets/images/insta2.png';
-import insta3 from '../assets/images/insta3.png';
-import insta4 from '../assets/images/insta4.png';
-import web from '../assets/images/web.png';
-import desire from '../assets/images/desire.png';
-import zent from '../assets/images/zentrato.png';
 import ip from '../assets/images/ipinfo.png';
 
 const AboutSection = () => {
@@ -86,8 +75,13 @@ const AboutSection = () => {
                         </div>
                     </div>
                 </div>
+                <div className="d-flex justify-content-center fs-2 gap-4">
+                    <h2 className="display-5 fw-bolder">
+                        <span className="text-gradient d-inline">Some glimpses of my work</span>
+                    </h2>
+                </div>
             </div>
-            <div className="row">
+            <div className="row py-3">
                     {webProjects.map((project) => (
                     <div key={project.id} className="col-lg-4 mb-4" 
                     data-bs-toggle="modal"
@@ -95,7 +89,7 @@ const AboutSection = () => {
                     >
                     <div
                         className="card overflow-hidden shadow rounded-4 border-0 h-100 hover-effect"
-                        style={{ height: '250px' }}
+                        style={{ height: '150px' }}
                     >
                         <div className="card-body p-0">
                             <div className="d-flex align-items-center flex-row">
