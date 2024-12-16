@@ -1,7 +1,7 @@
 // src/components/AboutSection.js
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-
+import { Link } from 'react-router-dom';
 import HelloGif from '../assets/images/hello-gif-14.gif';
 
 import dc from '../assets/images/deepcrowd.png';
@@ -30,18 +30,18 @@ const AboutSection = () => {
         },
         {
             id: 2,
+            title: "IPinfo.io",
+            description: "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
+            images: [ip, rd1, rd2, rd3, rd4, rd5, rd6],
+            tech: ["Google BQ", "Google Cloud Plateform", "Python", "Shell", "JavaScript", "Retool"]
+        },
+        {
+            id: 3,
             title: "DeepCrowd",
             description: "An application that leverages computer vision and deep learning techniques to enable efficient crowd behavioral analysis, including anomaly detection and crowd density estimation.",
             images: [dc, model, de1, de2, uniformity],
             tech: ["Python", "PyTorch", "OpenCV", "PyQt"]
         },
-        {
-            id: 3,
-            title: "IPinfo.io",
-            description: "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
-            images: [ip, rd1, rd2, rd3, rd4, rd5, rd6],
-            tech: ["Google BQ", "Google Cloud Plateform", "Python", "Shell", "JavaScript", "Retool"]
-          },
     ]
 
     return (
@@ -136,6 +136,14 @@ const AboutSection = () => {
                     </div>
                     ))}
             </div> 
+        </div>
+    </section>
+    <section className="py-5 bg-gradient-primary-to-secondary text-white">
+        <div className="container px-5 my-5">
+            <div className="text-center">
+                <h2 className="display-4 fw-bolder mb-4">Let's build something together</h2>
+                <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/projects">Projects</Link>
+            </div>
         </div>
     </section>
     </>

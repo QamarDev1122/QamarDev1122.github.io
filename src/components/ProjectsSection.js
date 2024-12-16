@@ -272,7 +272,7 @@ const ProjectsSection = () => {
                 <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/contact">Contact me</Link>
             </div>
         </div>
-        </section>
+      </section>
 
       {selectedProject && (
         <div
