@@ -23,8 +23,12 @@ import insta3 from '../assets/images/insta3.png';
 import insta4 from '../assets/images/insta4.png';
 import web from '../assets/images/web.png';
 import desire from '../assets/images/desire.png';
+import desire1 from '../assets/images/desire1.png';
+import desire2 from '../assets/images/desire2.png';
+import desire3 from '../assets/images/desire3.png';
 import zent from '../assets/images/zentrato.png';
 import ip from '../assets/images/ipinfo.png';
+import mercuri from '../assets/images/mercuri.png';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -80,14 +84,14 @@ const ProjectsSection = () => {
       id: 4,
       title: "Mercuri Admin Portal",
       description: "Mercuri is an application used for sport enthusiasts to get online trainings from top coaches, practitioners, and trainers.",
-      images: [web],
+      images: [web, mercuri],
       tech: [".Net", "React/TypeScript", "Swagger"]
     },
     {
       id: 5,
       title: "DesireDev",
       description: "A matrimonial application used for bringing people with similar traits a step closer to each other.",
-      images: [desire],
+      images: [desire, desire1, desire2, desire3],
       tech: ["RoR", "html/scss", "PostgreSQL"]
     },
     {
