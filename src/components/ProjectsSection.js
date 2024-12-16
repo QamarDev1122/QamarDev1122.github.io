@@ -23,6 +23,8 @@ import insta3 from '../assets/images/insta3.png';
 import insta4 from '../assets/images/insta4.png';
 import web from '../assets/images/web.png';
 import desire from '../assets/images/desire.png';
+import zent from '../assets/images/zentrato.png';
+import ip from '../assets/images/ipinfo.png';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -64,7 +66,7 @@ const ProjectsSection = () => {
       id: 2,
       title: "IPinfo.io",
       description: "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
-      images: [rd1, rd2, rd3, rd4, rd5, rd6],
+      images: [ip, rd1, rd2, rd3, rd4, rd5, rd6],
       tech: ["Google BQ", "Google Cloud Plateform", "Python", "Shell", "JavaScript", "Retool"]
     },
     {
@@ -92,7 +94,7 @@ const ProjectsSection = () => {
       id: 6,
       title: "Zentratoo",
       description: "An online market place used to sale daily commmodities in German market.",
-      images: [web],
+      images: [zent],
       tech: ["RoR", "html/scss", "PostgreSQL"]
     },
     {
