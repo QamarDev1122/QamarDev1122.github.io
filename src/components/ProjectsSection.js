@@ -13,7 +13,7 @@ import rd3 from '../assets/images/rd3.png';
 import rd4 from '../assets/images/rd4.png';
 import rd5 from '../assets/images/rd5.png';
 import rd6 from '../assets/images/rd6.png';
-import crmslogo from '../assets/images/crmslogo.png';
+import crmslogo from '../assets/images/crmslogo.svg';
 import crmsIcon from '../assets/images/crms_icon.png';
 import dmd from '../assets/images/dmd.png';
 import insta from '../assets/images/insta.png';
@@ -22,6 +22,7 @@ import insta2 from '../assets/images/insta2.png';
 import insta3 from '../assets/images/insta3.png';
 import insta4 from '../assets/images/insta4.png';
 import web from '../assets/images/web.png';
+import desire from '../assets/images/desire.png';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -56,7 +57,7 @@ const ProjectsSection = () => {
       id: 1,
       title: "Campaign Management System",
       description: "A CRM for user campaign management. CRMS can be used for businesses to run their online campaings using one of the most Professional tools like email and WhatsApp.",
-      images: [crmsIcon, crmslogo, crmsIcon],
+      images: [crmslogo, crmsIcon , crmsIcon],
       tech: ["Go", "TypeScript", "PostgreSQL", "WhatsApp Business API"]
     },
     {
@@ -82,9 +83,9 @@ const ProjectsSection = () => {
     },
     {
       id: 5,
-      title: "DesireDev: A Matrimonial App",
+      title: "DesireDev",
       description: "A matrimonial application used for bringing people with similar traits a step closer to each other.",
-      images: [web],
+      images: [desire],
       tech: ["RoR", "html/scss", "PostgreSQL"]
     },
     {
@@ -167,7 +168,7 @@ const ProjectsSection = () => {
                               style={{
                                 width: '100%',
                                 height: '100%',
-                                objectFit: 'cover',
+                                objectFit: 'fill',
                               }}
                             />
                           </div>
@@ -230,7 +231,7 @@ const ProjectsSection = () => {
                               style={{
                                 width: '100%',
                                 height: '100%',
-                                objectFit: 'cover',
+                                objectFit: 'fill',
                               }}
                             />
                           </div>
@@ -296,7 +297,7 @@ const ProjectsSection = () => {
                       style={{
                         width: "300px",
                         height: "150px",
-                        objectFit: "cover",
+                        objectFit: "contain",
                       }}
                     />
                   ))}
