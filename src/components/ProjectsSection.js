@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
 import { toast } from "react-toastify";
 
@@ -37,17 +37,22 @@ import mercuri3 from '../assets/images/mercuri3.png';
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-
+  const toastShown = useRef(false);
   useEffect(() => {
-    toast.info("Explore some of my classical work here!", {
-      position: "top-center",
-      autoClose: 3000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: false,
-      draggable: true,
-    });
+    // Prevent toast from being shown multiple times
+    if (!toastShown.current) {
+      toast.info("Explore my Projects here!", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+      });
+      toastShown.current = true; // Mark toast as shown
+    }
   }, []);
+
 
   const mlProjects = [
     {
