@@ -39,17 +39,23 @@ const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const toastShown = useRef(false);
   useEffect(() => {
-    // Prevent toast from being shown multiple times
+    window.scrollTo(0, 0);
     if (!toastShown.current) {
-      toast.info("Explore my Projects here!", {
+      toast.info("Check some of my classical work!", {
         position: "top-center",
-        autoClose: 3000,
+        autoClose: 2500,
         hideProgressBar: true,
         closeOnClick: true,
         pauseOnHover: false,
         draggable: true,
+        style: {
+          backgroundColor: "#3f226c",
+          color: "#fff",
+          fontSize: "1.0rem",
+          fontWeight: "bold"
+        },  
       });
-      toastShown.current = true; // Mark toast as shown
+      toastShown.current = true;
     }
   }, []);
 
@@ -167,7 +173,7 @@ const ProjectsSection = () => {
                   >
                   <div
                       className="card overflow-hidden shadow rounded-4 border-0 h-100 hover-effect"
-                      style={{ height: '250px' }}
+                      style={{ height: '250px', cursor: "pointer" }}
                   >
                       <div className="card-body p-0">
                         <div className="d-flex align-items-center flex-row">
@@ -230,7 +236,7 @@ const ProjectsSection = () => {
                   >
                   <div
                       className="card overflow-hidden shadow rounded-4 border-0 h-100 hover-effect"
-                      style={{ height: '250px' }}
+                      style={{ height: '250px', cursor: "pointer" }}
                   >
                       <div className="card-body p-0">
                       <div className="d-flex align-items-center flex-row">
