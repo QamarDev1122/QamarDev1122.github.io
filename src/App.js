@@ -8,10 +8,13 @@ import ContactForm from './components/ContactForm';
 import ResumeSection from './components/ResumeSection';
 import ScrollToSection from '../src/components/Scroll';
 
+import { ToastContainer } from "react-toastify";
+
 function App() {
   return (
     <Router>
       <ScrollToSection />
+      <ToastContainer />
       <div className="d-flex flex-column h-100">
         <Navbar />
         <main className="flex-shrink-0">
