@@ -80,8 +80,7 @@ const AboutSection = () => {
                         <span className="text-gradient d-inline">Some glimpses of my work</span>
                     </h2>
                 </div>
-            </div>
-            <div className="row py-3">
+                <div className="row py-3">
                     {webProjects.map((project) => (
                     <div key={project.id} className="col-lg-4 mb-4" 
                     data-bs-toggle="modal"
@@ -135,14 +134,18 @@ const AboutSection = () => {
                     </div>
                     </div>
                     ))}
-            </div> 
+            </div>
+            </div>
         </div>
     </section>
     <section className="py-5 bg-gradient-primary-to-secondary text-white">
         <div className="container px-5 my-5">
             <div className="text-center">
-                <h2 className="display-4 fw-bolder mb-4">Let's build something together</h2>
-                <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/projects">Projects</Link>
+                <h2 className="display-4 fw-bolder">Have any project in mind?</h2>
+                <p>
+                    Innovative, creative, and daring - let's craft a project that embodies these qualities and more!
+                </p>
+                <Link className="btn btn-outline-light btn-lg fs-6 fw-bolder" to="/projects"><span>All Projects <i class="bi bi-box-arrow-up-right"></i></span></Link>
             </div>
         </div>
     </section>
