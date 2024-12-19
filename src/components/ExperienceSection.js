@@ -40,23 +40,25 @@ const ExperienceSection = () => (
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                        <div className="bg-light p-4 rounded-4 d-flex align-items-center">
-                            <img 
-                            src={mslm} 
-                            alt="Mslm Logo" 
-                            style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
-                            />
-                            <div>
-                                <div className="text-primary fw-bolder mb-2">2023 - 2024</div>
-                                <div className="mb-2">
-                                    <div className="small fw-bolder">Software Engineer</div>
-                                    <div className="small text-muted">Mslm</div>
-                                </div>
-                                <div className="fst-italic">
-                                    <div className="small text-muted">Lahore Pakistan</div>
+                        <a href="https://example.com" style={{ textDecoration: 'none' }}>
+                            <div className="bg-light p-4 rounded-4 d-flex align-items-center">
+                                <img 
+                                src={mslm} 
+                                alt="Mslm Logo" 
+                                style={{ width: '60px', height: '60px', objectFit: 'contain', marginRight: '10px', borderRadius: '50px' }} 
+                                />
+                                <div>
+                                    <div className="text-primary fw-bolder mb-2">2023 - 2024</div>
+                                    <div className="mb-2">
+                                        <div className="small fw-bolder">Software Engineer</div>
+                                        <div className="small text-muted">Mslm</div>
+                                    </div>
+                                    <div className="fst-italic">
+                                        <div className="small text-muted">Lahore Pakistan</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-8">
                         <div>
@@ -68,7 +70,9 @@ const ExperienceSection = () => (
                                         <TimelineConnector />
                                         </TimelineSeparator>
                                         <TimelineContent>
-                                            Used Google BQ for analyzing VPN privacy dataset and improved system performance by query optimization.
+                                            Performed data analysis on VPN privacy dataset of IPINFO using Google BQ to intelligently assign
+                                             relavent providers to different VM buckets with respect to churn rate and IP differences.
+                                            {/* Used Google BQ for analyzing VPN privacy dataset and improved system performance by query optimization. */}
                                         </TimelineContent>
                                     </TimelineItem>
                                     <TimelineItem>
@@ -77,7 +81,8 @@ const ExperienceSection = () => (
                                         <TimelineConnector />
                                         </TimelineSeparator>
                                         <TimelineContent>
-                                            Incorporated scripts using Python and Shell Script(Bash) to scrap different VPN extensions and configs to add new IP data points.
+                                            Incorporated scripts using Python and Shell Script(Bash) to scrap different VPN 
+                                            extensions and configs to add new IP data points.
                                         </TimelineContent>
                                     </TimelineItem>
                                     <TimelineItem>
@@ -86,7 +91,8 @@ const ExperienceSection = () => (
                                         <TimelineConnector />
                                         </TimelineSeparator>
                                         <TimelineContent>
-                                            Explored ways to visualize and send a daily report of results against IP churn and IP differences to change the buckets of different providers.
+                                            Explored ways to visualize and send a daily report of results against IP churn and IP differences
+                                            to change the buckets of different providers.
                                         </TimelineContent>
                                     </TimelineItem>
                                     <TimelineItem>
@@ -94,7 +100,9 @@ const ExperienceSection = () => (
                                         <TimelineDot />
                                         </TimelineSeparator>
                                         <TimelineContent>
-                                            Developed a GO application for WhatsApp campaign management using WhatsApp Business API. The scope of the application is to be used, for marketing and utility-based campaigns via different messaging templates. Added B2B functionalities for working as a Business Service Provider (BSP) and Tech Provider.
+                                            Developed a Golang application for WhatsApp campaign management using 
+                                            WhatsApp Business API. The scope of the application is to be used, for marketing and utility-based campaigns via different messaging templates.
+                                            Added B2B functionalities for working as a Business Service Provider (BSP) and Tech Provider.
                                         </TimelineContent>
                                     </TimelineItem>
                                 </Timeline>
@@ -109,6 +117,7 @@ const ExperienceSection = () => (
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                    <a href="https://example.com" style={{ textDecoration: 'none' }}>
                         <div className="bg-light p-4 rounded-4 d-flex align-items-center">
                             <img 
                             src={astech} 
@@ -126,6 +135,7 @@ const ExperienceSection = () => (
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-lg-8">
                         <div>
@@ -142,7 +152,9 @@ const ExperienceSection = () => (
                                 <TimelineConnector />
                                 </TimelineSeparator>
                                 <TimelineContent>
-                                    Leveraged my skills as an ASE, specializing in Ruby on Rails (RoR) development, to deliver robust and scalable solutions that have successfully met the needs of various projects and clients.
+                                    Leveraged my skills as an ASE, specializing in Ruby on Rails (RoR) development, 
+                                    to deliver robust and scalable solutions that have successfully met the needs 
+                                    of various projects and clients.
                                 </TimelineContent>
                             </TimelineItem>
                             <TimelineItem
