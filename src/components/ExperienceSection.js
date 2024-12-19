@@ -40,7 +40,7 @@ const ExperienceSection = () => (
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                        <a href="https://example.com" style={{ textDecoration: 'none' }}>
+                        <a href="https://mslm.io/" style={{ textDecoration: 'none' }}>
                             <div className="bg-light p-4 rounded-4 d-flex align-items-center">
                                 <img 
                                 src={mslm} 
@@ -117,7 +117,7 @@ const ExperienceSection = () => (
             <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                    <a href="https://example.com" style={{ textDecoration: 'none' }}>
+                    <a href="https://www.linkedin.com/company/astechware/posts/?feedView=all" style={{ textDecoration: 'none' }}>
                         <div className="bg-light p-4 rounded-4 d-flex align-items-center">
                             <img 
                             src={astech} 
@@ -135,7 +135,7 @@ const ExperienceSection = () => (
                                 </div>
                             </div>
                         </div>
-                        </a>
+                    </a>
                     </div>
                     <div class="col-lg-8">
                         <div>
