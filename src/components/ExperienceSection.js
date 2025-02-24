@@ -29,7 +29,7 @@ const ExperienceSection = () => (
     <section>
         <div class="d-flex align-items-center justify-content-between mb-4">
             <h2 class="text-secondary fw-bolder mb-4">Experience</h2>
-            <a class="btn btn-primary" target="_blank" href="https://www.dropbox.com/scl/fi/lhsox8trcpfy0sc2e8ofn/ameer_hamza_resume.pdf?rlkey=bwm2dffcjxjfdw1z9dn18ausp&st=p5zym1zs&dl=0">
+            <a class="btn btn-primary" target="_blank" href="https://drive.google.com/file/d/1sbLihGMOEdAUMsefZ6Nx8RMaXPu8v2Ir/view?usp=sharing">
                 <div class="d-inline-block bi bi-download me-2"></div>
                 Download Resume
             </a>

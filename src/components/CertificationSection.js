@@ -19,7 +19,7 @@ const CertificationSection = () => (
                             <img src={HelloGif} alt="Hello GIF" style={{ width: '150px', height: '150px' }} />
                         </p>
                         <p className="text-muted lead fw-light mb-4">
-                            I am Ameer Hamza and I help businesses to go online by cutting edge technologies.
+                            I am Qamar Shehzad and I help businesses to go online by cutting edge technologies.
                         </p>
                         <p className="text-muted">
                             I turn ideas into reality using engineering principles and magic of artificial intelligence. I help businesses to streamline and automate their workflows and earn more money using internet. 

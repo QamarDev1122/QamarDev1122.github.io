@@ -58,21 +58,22 @@ const AboutSection = () => {
                             <img src={HelloGif} alt="Hello GIF" style={{ width: '150px', height: '150px' }} />
                         </p>
                         <p className="text-muted lead fw-light mb-4">
-                            I am Ameer Hamza and I help businesses to go online by automating 🔧 business operations using cutting-edge technologies.
+                            Hi I am QamarShehzad
                         </p>
+                        <p> 🖌️ Creative Designer | 📱 Social Media Manager | 🛍️ E-Commerce Manager | ✍️ Content Creator   </p>
                         {/* <p className="text-muted">
                             I turn ideas into reality using engineering principles and magic of artificial intelligence. I help businesses to streamline and automate their workflows and earn more money using internet. 
                         </p> */}
-                        <p className="text-muted">
-                            As a passionate software engineer with expertise in full-stack development and a strong interest in machine learning and artificial intelligence. I thrive on creating robust, scalable applications by combining modern web technologies like React and Go with the power of AI-driven solutions. My portfolio showcases projects where I’ve implemented innovative machine learning models, crafted seamless user experiences, and optimized backend systems for performance and reliability. With a commitment to staying at the forefront of technology, I aim to bridge the gap between cutting-edge AI and practical software applications to solve real-world problems
+                        <p className="text-muted" style={{textAlignLast: 'center', textAlign: 'justify', textJustify: 'inter-word'}}>
+                        A highly creative and strategic Digital Marketing & E-commerce Manager with over six years of experience in visual content creation, social media campaigns, and Shopify optimization. Proficient in Adobe Photoshop, Adobe Illustrator & Canva in crafting compelling visuals that enhance brand identity and engagement. Adept at leveraging data insights to optimize Google Ads and Meta campaigns, driving maximum engagement and conversions. Skilled in basic WordPress management, enhancing website functionality and user experience. Known for a detail-oriented and deadline-driven individual, with a strong ability to develop and execute innovative marketing strategies that align with brand goals and deliver exceptional results.
                         </p>
                         <h4 className="text-muted">Let's connect 🤝</h4>
                         <div className="d-flex justify-content-center fs-2 gap-4" id='contect-section'>
-                            <a className="text-gradient" href="mailto:ameer.hamza.nu@gmail.com" title="Send an email to Ameer Hamza"><i className="bi bi-envelope"></i></a>
-                            <a className="text-gradient" href="https://www.linkedin.com/in/contact-ameer-hamza/" title="Connect with me on LinkedIn"><i className="bi bi-linkedin"></i></a>
-                            <a className="text-gradient" href="https://github.com/ItzAmeerHamza" title="Follow me on Github"><i className="bi bi-github"></i></a>
-                            <a className="text-gradient" href="https://www.instagram.com/am33r_ham2a/" title="Reach out to me on Instagram"><i className="bi bi-instagram"></i></a>
-                            <a className="text-gradient" href="https://twitter.com/Am33rHam2a" title="Say Hi to me on Twitter"><i className="bi bi-twitter"></i></a>
+                            <a className="text-gradient" href="mailto:qamarshehzad773@gmail.com" title="Send an email to Qamar Shehzad"><i className="bi bi-envelope"></i></a>
+                            <a className="text-gradient" href="https://www.linkedin.com/in/qamar-shehzad-087593190/" title="Connect with me on LinkedIn"><i className="bi bi-linkedin"></i></a>
+                            <a className="text-gradient" href="https://api.whatsapp.com/send/?phone=923237805481&text&type=phone_number&app_absent=0" title="Follow me on Github"><i className="bi bi-whatsapp"></i></a>
+                            <a className="text-gradient" href="https://www.instagram.com/qamarshehzad773/" title="Reach out to me on Instagram"><i className="bi bi-instagram"></i></a>
+                            <a className="text-gradient" href="https://www.facebook.com/QamarShahzadmughal90" title="Say Hi to me on Twitter"><i className="bi bi-facebook"></i></a>
                         </div>
                     </div>
                 </div>

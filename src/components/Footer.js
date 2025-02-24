@@ -7,7 +7,7 @@ const Footer = () => (
             <div className="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div className="col-auto">
                     <div className="small m-0">
-                        Copyright &copy; <a className="text-gradient" href="https://github.com/ItzAmeerHamza">ItzAmeerHamza</a>
+                        Copyright &copy; <a className="text-gradient" href="javascript:;">QamarShehzad</a>
                     </div>
                 </div>
                 <div className="col-auto">

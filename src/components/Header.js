@@ -12,8 +12,7 @@ const Header = () => (
                     <div className="text-center text-xxl-start">
                         <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
                             <div className="fs-7 text-uppercase">
-                                Planning &middot; Defining &middot; Designing &middot; Building &middot; Testing &middot; Deployment
-                            </div>
+                            Creative Vision &middot; Viral Impact &middot; E-Com Domination &middot; Content Brilliance                          </div>
                         </div>
                         <div className="fs-3 fw-light text-muted">I can help your business to</div>
                         <h1 className="display-3 fw-bolder mb-5">

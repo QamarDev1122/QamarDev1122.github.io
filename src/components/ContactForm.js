@@ -13,11 +13,11 @@ const ContactForm = () => (
                     <p className="lead fw-normal text-muted mb-0">Let's work together!</p>
                 </div>
                 <div className="d-flex justify-content-center fs-2 gap-4">
-                    <a class="text-gradient" href="mailto:ameer.hamza.nu@gmail.com" title="Send an email to Ameer Hamza"><i className="bi bi-envelope"></i></a>
-                    <a className="text-gradient" href="https://www.linkedin.com/in/contact-ameer-hamza/" title="Connect with me on LinkedIn"><i className="bi bi-linkedin"></i></a>
-                    <a className="text-gradient" href="https://github.com/ItzAmeerHamza" title="Follow me on Github"><i className="bi bi-github"></i></a>
-                    <a className="text-gradient" href="https://www.instagram.com/am33r_ham2a/" title="Reach out to me on Instagram"><i className="bi bi-instagram"></i></a>
-                    <a className="text-gradient" href="https://twitter.com/Am33rHam2a" title="Say Hi to me on Twitter"><i className="bi bi-twitter"></i></a>
+                    <a className="text-gradient" href="mailto:qamarshehzad773@gmail.com" title="Send an email to Qamar Shehzad"><i className="bi bi-envelope"></i></a>
+                    <a className="text-gradient" href="https://www.linkedin.com/in/qamar-shehzad-087593190/" title="Connect with me on LinkedIn"><i className="bi bi-linkedin"></i></a>
+                    <a className="text-gradient" href="https://api.whatsapp.com/send/?phone=923237805481&text&type=phone_number&app_absent=0" title="Follow me on Github"><i className="bi bi-whatsapp"></i></a>
+                    <a className="text-gradient" href="https://www.instagram.com/qamarshehzad773/" title="Reach out to me on Instagram"><i className="bi bi-instagram"></i></a>
+                    <a className="text-gradient" href="https://www.facebook.com/QamarShahzadmughal90" title="Say Hi to me on Twitter"><i className="bi bi-facebook"></i></a>
                 </div>
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-8 col-xl-6">
